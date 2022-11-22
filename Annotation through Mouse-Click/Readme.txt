@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------------------------------------------------
 
-Annotation through Mouse-Click Task :
+# Annotation through Mouse-Click Task :
 
 - Use `Task_1.jpg`, to write a code that will show the image to the user.
 - Then the user will use the mouse to point out which rectangular area needs to be cropped.
@@ -10,7 +10,7 @@ Annotation through Mouse-Click Task :
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Folder contain:
+# Folder contain:
 
 1) Annotation.py
 
