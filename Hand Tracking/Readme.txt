@@ -1,25 +1,26 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Hand Tracking
+Annotation through M
+ouse-Click Task :
 
-- Write a code that will do the hand tracking. Use any hand-tracking model available in the market.
-- The twist in the task is whenever one of the fingers is up, put the alphabet on the shown image.
-- For eg:- Thumb - T
-Index - I
-Middle - M
-Ring - R
-Baby - B
-- Your code should run in real-time and save a video too.
+- Use `Task_1.jpg`, to write a code that will show the image to the user.
+- Then the user will use the mouse to point out which rectangular area needs to be cropped.
+- Save the cropped image as `Task_1_cropped.jpg`.
+- Also save an image (`Task_1_insights.jpg`) - in this draw that rectangular box and also mention its top left and bottom right point.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Folder contain:
 
-1) Fingure_Tracking.py
+1) Annotation.py
 
-2) Output.mp4
+2) Common.py
 
-3) Readme.txt
+3) Task_1.jpg
+
+4) Task_1_cropped.jpg
+
+5) Task_1_insights.jpg
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Folder contain:
 
 # Quick run Command :
 
-python  Fingure_Tracking.py
+python  annotation.py
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
